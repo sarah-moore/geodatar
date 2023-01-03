@@ -18,3 +18,5 @@ Here is a guide to the materials provided in this repository:
 This workshop relies on use of the following packages, some of which migh cause issues upon installation. It is recommended that you attempt to install these packages and troubleshoot their installation prior to the workshop. 
 
 `sf, tidyverse, rnaturalearth, rnaturalearthdata, leaflet`
+
+If R prompts you to install from sources which need compilation select *no*. 
