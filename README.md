@@ -1,6 +1,6 @@
 # Workshop: Geospatial Data & Visualization in R 
 
-These materials facilitate the NU PoliSci R Workshop on Geospatial data and Visualization. These materials, unless otherwise stated were drafted and presented by [Sarah Moore](sarah-moore.github.io). The workshop materials provide full citations for all sources and data, original links to datasets are provided below as well. 
+These materials facilitate the NU PoliSci R Workshop on Geospatial data and Visualization. These materials, unless otherwise stated were drafted and presented by [Sarah Moore](https://sarah-moore.github.io). The workshop materials provide full citations for all sources and data, original links to datasets are provided below as well. 
 
 Here is a guide to the materials provided in this repository: 
 
