@@ -8,13 +8,9 @@ Here is a guide to the materials provided in this repository:
 
 - geodatar.pdf : A pdf version of the workshop's slides 
 
-- data: 
-
-  - 
-  
-  - 
-
 - geodatar_exercises.R: Start-up code to facilitate your follow along and exercises in the workshop
+
+- All necessary data is in the data folder. 
 
 This workshop relies on use of the following packages, some of which may cause issues upon installation. It is recommended that you attempt to install these packages and troubleshoot their installation prior to the workshop. 
 

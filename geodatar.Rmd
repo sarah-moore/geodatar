@@ -544,6 +544,7 @@ st_crs(land_grants)
 ---
 ## How are historical land grant sites related to present-day distribution of wealth in latecomer territorial states? 
 
+---
 ```{r include = T, eval= F, message=F}
 
 sf_use_s2(FALSE)
