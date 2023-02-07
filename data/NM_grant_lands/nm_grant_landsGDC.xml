@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+    <origin>NM State Land Office</origin>
+    <pubdate>20120720</pubdate>
+<title>NM Grant Lands Index First Division</title>
+<geoform>vector digital data</geoform>
+<onlink>http://rgis.unm.edu</onlink>
+</citeinfo>
+</citation>
+<descript>
+    <abstract>The New Mexico Land Index is intended primarily to provide a standardized
+        spatial index for land grant areas in the State of New Mexico and, to a lesser
+        extent, to similarly provide a spatial index to other lands in New Mexico for which
+        Geographic Coordinate Data Base (GCDB) data have not been published yet and for which
+        alternate source GCDB data are not available. The design and implementation of the
+        New Mexico Land Index ensures that it is compatible with the Cadastral NSDI (CADNSDI) Public Land Survey System (PLSS) data set.</abstract>
+    <purpose>The feature classes are intended to facilitate geocoding
+        operations and other spatial analyses within a framework consistent with the
+        PLSS.</purpose>
+    <supplinf>The data set consists of two feature classes, Index_PLSSFirstDivision and Index_PLSSSecondDivision. The first provides a section-level index grid and the second provides a nominal subdivision or second division index grid. The feature classes are intended to facilitate geocoding operations and other spatial analyses within a framework consistent with the PLSS. </supplinf>
+</descript>
+    <timeperd>
+        <timeinfo>
+            <sngdate>
+                <caldate>20120406</caldate>
+            </sngdate>
+        </timeinfo>
+        <current>Publication date</current>
+    </timeperd>
+    <status>
+        <progress>Complete</progress>
+        <update>As needed</update>
+    </status>
+<spdom>
+<bounding>
+<westbc>-109.045789</westbc>
+<eastbc>-103.698366</eastbc>
+<northbc>36.995878</northbc>
+<southbc>31.785792</southbc>
+</bounding>
+</spdom>
+    <keywords>
+        <theme>
+            <themekt>IOS 19115 Topic Category</themekt>
+            <themekey>planningCadastre</themekey>
+        </theme>
+        <theme>
+            <themekt>FGDC Data Content Standard</themekt>
+            <themekey>Public Land Survey System</themekey>
+            <themekey>PLSS</themekey>
+            <themekey>Data Steward</themekey>
+            <themekey>Cadastral</themekey>
+        </theme>
+        <place>
+            <placekt>Geographic Names Information System</placekt>
+            <placekey>New Mexico</placekey>
+            <placekey>United States</placekey>
+            <placekey>USA</placekey>
+        </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are for GIS and mapping purposes and are not intended to support or
+        replace land survey data or the information provided by land survey.</useconst>
+    <native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog
+        9.3.1.4000</native>
+</idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Unknown</attraccr> 
+        </attracc>
+        <logic>Unknown</logic> 
+        <complete>Unknown</complete> 
+        <posacc>
+           <horizpa>
+                <horizpar>Unknown</horizpar> 
+            </horizpa>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Per the BLM Manual of Surveying Instructions 2009, BHI attempted to recreate the index townships, first and second divisions as close to the original instruction intent as possible.  Because of existing irregularities in the PLSS subdivided areas, some basic assumptions were made to facilitate the indexing.  Township lines were protracted across the blank grant spaces and the township numbering scheme was interpolated across these areas as well.  No half or quarter townships were created in this process.  In some instances, the township lines were squared off to more closely represent a cardinal N-S or E-W line rather than create a skewed parallelogram.  Once the townships were created, the sections were protracted within each township.  Holding the southeast corner and starting at section 36, the sections were protracted along the east-most tier to section 1, and then resuming at the south of the township at section 35 along the second east-most tier until all 36 sections were created.  This process follows the 2009 manual and places the excess or deficiency in the north-most and west-most tiers of sections.  Because the townships in many cases were irregular, excess or deficiency also was placed in the south and east tiers.  Because this is an index layer, no attempt was made to ensure that these protractions were within the stated 2009 limits.  The interior section lines were held at cardinal N-S and E-W directions.
+                    Lastly, the second division was created for each section following BLM Instructions by connecting and intersecting the mid points to create the final second division lines.  
+                    Once all the township,and first and second divisions were created, the protracted areas were clipped to the existing land grant lines and labeled as index divisions.
+                </procdesc> 
+                <procdate>20120406</procdate> 
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Bohannan-Huston, Inc.</cntorg> 
+                            <cntper>Dennis Sandin</cntper> 
+                        </cntorgp>
+                        <cntpos>Senior Vice President and Managing Principal</cntpos> 
+                        <cntaddr>
+                            <addrtype>mailing and physical address</addrtype> 
+                            <address>Courtyard I</address> 
+                            <address>7500 Jefferson St. NE</address> 
+                            <city>Albuquerque</city> 
+                            <state>NM</state> 
+                            <postal>87109-4335</postal> 
+                            <country>USA</country> 
+                        </cntaddr>
+                        <cntvoice>505-798-7925</cntvoice> 
+                        <cntfax>505-798-7932</cntfax> 
+                        <cntemail>dsandin@bhinc.com</cntemail> 
+                        <hours>8-5 M-Th 8-4:30 F (Mountain Time)</hours> 
+                        <cntinst>Contact Mr. Sandin and he will put the caller in touch with the appropriate technical staff.</cntinst> 
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>15968</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000001</latres>
+<longres>0.000001</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>nmgrantlandsindex_firstdivision</enttypl>
+    <enttypd>A spatial index of lands in New Mexico for which Geographic Coordinate Data Base (GCDB) data have not been published yet.</enttypd>
+    <enttypds>State Land Office</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_PLSSID</attrlabl>
+    <attrdef>Unique identifier for the PLSS Township in which the first division is located.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRSTDI</attrlabl>
+    <attrdef>Unique identifier for the first division that is built by appending the first division elements on the Township identifier.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRST_1</attrlabl>
+    <attrdef>Number, letter or designator for the first division of the PLSS Township.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRST_2</attrlabl>
+    <attrdef>Code to indicate whether the first division is a duplicated area or identifier.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRST_3</attrlabl>
+    <attrdef>Type of first division.  Commonly the section, but might be a lot, parcel, tract or other division.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRST_4</attrlabl>
+    <attrdef>Number or designator for the first division as a text to facilitate labeling and query.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_FRST_5</attrlabl>
+    <attrdef>Label for the first division that is used for cartographic or web display purposes.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_SURVTY</attrlabl>
+    <attrdef>Type of special survey as identified by BLM code.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>IDX_SURV_1</attrlabl>
+    <attrdef>Type of special survey as text for readability.</attrdef>
+    <attrdefs>BLM</attrdefs>
+    <attrdomv>
+        <udom>Unique identifier.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE_Leng</attrlabl>
+    <attrdef>Area of feature in internal units.</attrdef>
+    <attrdefs>ESRI</attrdefs>
+    <attrdomv>
+        <udom>Positive real numbers that are automatically generated.</udom>
+    </attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE_Area</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+    <distrib>
+        <cntinfo>
+            <cntorgp>
+                <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+                <addrtype>mailing and physical address</addrtype>
+                <address>MSC01 1110, Bandelier West, Room 118</address>
+                <address>1 University of New Mexico</address>
+                <city>Albuquerque</city>
+                <state>NM</state>
+                <postal>87131-0001</postal>
+                <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>8:00 - 4:30 M-F MT</hours>
+        </cntinfo>
+    </distrib>
+<resdesc>Downloadable Data</resdesc>
+    <distliab>RGIS/EDAC provides these data "as is" and makes no guarantee or warranty concerning the accuracy of information contained in the data. RGIS further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of EDAC and served by RGIS, no warranty, expressed or implied, is made by RGIS or EDAC regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty. In no event shall RGIS or EDAC have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the data or arising out of the delivery, installation, operation, or support by RGIS.</distliab>
+<stdorder>
+<digform>
+    <digtinfo>
+    <formname>ESRI Shapefile</formname>
+    <formvern>ArcGIS 10</formvern>
+<transize>2.610</transize>
+        </digtinfo>
+        <digtopt>
+            <offoptn>
+                <offmedia>CD-ROM</offmedia>
+                <recfmt>varies</recfmt>
+            </offoptn>
+        </digtopt>
+</digform>
+    <fees>Contact Earth Data Analysis Center through clearinghouse@edac.unm.edu</fees>
+    <ordering>For information on ordering images on CD-ROMs, DVD-ROMs, or external hard disk drive(s), contact the Earth Data Analysis Center through clearinghouse@edac.unm.edu. Charges and delivery schedule for custom orders will vary depending on the size of the order.</ordering>
+    <turnarnd>varies according to type of order</turnarnd>
+</stdorder>
+    <custom>For information on custom orders, contact Earth Data Analysis Center through clearinghouse@edac.unm.edu. Charges and delivery schedule for custom orders will vary depending on the size of the order.</custom>
+    <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+    <availabl>
+        <timeinfo>
+            <sngdate>
+                <caldate>Unknown</caldate>
+            </sngdate>
+        </timeinfo>
+    </availabl>
+</distinfo>
+    <metainfo>
+        <metd>20120720</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Earth Data Analysis Center</cntorg>
+                </cntorgp>
+                <cntpos>Clearinghouse Manager</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing address.</addrtype>
+                    <address>MSC01 1110, Bandelier West Room 118</address>
+                    <address>1 University of New Mexico</address>
+                    <city>Albuquerque</city>
+                    <state>NM</state>
+                    <postal>87131-0001</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>505-277-3622 ext. 230</cntvoice>
+                <cntfax>505-277-3614</cntfax>
+                <cntemail>clearinghouse @edac.unm.edu</cntemail>
+                <hours>8 am - 5 pm M-F, MT</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metextns>
+            <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+            <metprof>ESRI Metadata Profile</metprof>
+        </metextns>
+    </metainfo>
+</metadata>
