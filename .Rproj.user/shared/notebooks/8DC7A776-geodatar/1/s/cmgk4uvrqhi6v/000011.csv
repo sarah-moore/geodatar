@@ -1,0 +1,3 @@
+"0","st_join(chicago_wards, chicago_parks, largest= T) -> chicago_ward_parks
+"
+"2","Warning: attribute variables are assumed to be spatially constant throughout all geometries"
